@@ -1,0 +1,19 @@
+number = int(input())
+counter = 0
+while number != 0:
+    if number-5 >= 0:
+        counter += 1
+        number -= 5
+    elif number-4 >= 0:
+        counter += 1
+        number -= 4
+    elif number-3 >= 0:
+        counter += 1
+        number -= 3
+    elif number-2 >= 0:
+        counter += 1
+        number -= 2
+    elif number-1 >= 0:
+        counter += 1
+        number -= 1
+print(counter)
